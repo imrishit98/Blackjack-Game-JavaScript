@@ -57,17 +57,20 @@ h2 {
     padding: 1em;
 }
 
-@media screen and (max-width: 600px) {
-    .cardsImg {
-        width: 81px;
-        height: 121px;
-    }
+#pcCards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#plCards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .scores {
-    position: relative;
     display: none;
-    bottom: 111px;
     -webkit-text-stroke: 2.5px black;
 }
 
@@ -143,5 +146,20 @@ h2 {
     }
     to {
         height: 71px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .cardsImg {
+        height: auto;
+        width: 16vw;
+    }
+    .scores {
+        font-size: 4vw;
+        -webkit-text-stroke: 0.2vw black;
+    }
+    #result {
+        margin-top: 2vh;
+        font-size: 6vw;
     }
 }
