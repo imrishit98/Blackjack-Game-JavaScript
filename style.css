@@ -162,4 +162,9 @@ h2 {
         margin-top: 2vh;
         font-size: 6vw;
     }
+    #logo{
+        width: auto;
+        height: 25vh;
+        margin-top: 5vh;
+    }
 }
